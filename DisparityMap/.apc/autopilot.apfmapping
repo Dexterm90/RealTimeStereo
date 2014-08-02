@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="disparity_map.cpp" path="C:\Users\Michael\Desktop\DisparityMap_Vivado\disparity_map.cpp"/>
+    <originFiles name="ap_bmp.cpp" path="C:\Users\Michael\Desktop\DisparityMap_Vivado\ap_bmp.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="disparity_map_test.cpp" path="C:\Users\Michael\Desktop\DisparityMap_Vivado\disparity_map_test.cpp"/>
+    <originFiles name="Tsukuba_R.bmp" path="C:\Users\Michael\Desktop\DisparityMap_Vivado\Tsukuba_R.bmp"/>
+    <originFiles name="Tsukuba_L.bmp" path="C:\Users\Michael\Desktop\DisparityMap_Vivado\Tsukuba_L.bmp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

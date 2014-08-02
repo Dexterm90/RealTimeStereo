@@ -1,0 +1,169 @@
+@I [HLS-0] Workspace C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1 opened at Wed Apr 10 20:31:02 +0200 2013
+@I [HLS-100] Command "config_clock -quiet -name - -period 10 -default=false "
+@I [SYN-201] Setting up clock with a period of 10ns.
+@I [HLS-100] Command 'config_clock' returned 0; elapsed 0Total elapsed time: 4.791 sec.
+@I [HLS-100] Command "open_platform DefaultPlatform "
+@I [HLS-100] Command 'open_platform' returned 0; elapsed 0Total elapsed time: 4.878 sec.
+@I [HLS-100] Command "import_lib C:/Xilinx/Vivado_HLS/2012.4/common/technology/xilinx/kintex7/kintex7 "
+@I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2012.4/common/technology/xilinx/common/xilinx.lib "
+@I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2012.4/common/technology/xilinx/interface/xilinx_interface.lib "
+@I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2012.4/common/technology/xilinx/interface/plb46.lib "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002Total elapsed time: 4.916 sec.
+@I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2012.4/common/technology/xilinx/interface/fsl.lib "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.004Total elapsed time: 4.920 sec.
+@I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2012.4/common/technology/xilinx/interface/axi4.lib "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.003Total elapsed time: 4.923 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.018Total elapsed time: 4.923 sec.
+@I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2012.4/common/technology/xilinx/common/dsp48.lib "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.002Total elapsed time: 4.925 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.056Total elapsed time: 4.935 sec.
+@I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2012.4/common/technology/xilinx/common/xilinx_old.lib "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.03Total elapsed time: 4.974 sec.
+@I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2012.4/common/technology/xilinx/common/xilinx.hlp "
+@I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2012.4/common/technology/xilinx/common/target_info.tcl "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.015Total elapsed time: 5.60 sec.
+@I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2012.4/common/technology/xilinx/common/dsp48.hlp "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.016Total elapsed time: 5.78 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.073Total elapsed time: 5.79 sec.
+@I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2012.4/common/technology/xilinx/kintex7/dsp48e1.hlp "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.001Total elapsed time: 5.80 sec.
+@I [HLS-100] Command "get_default_platform "
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 5.81 sec.
+@I [HLS-100] Command "config_chip_info -quiet -resource  {SLICE 50950} {LUT 203800}    {FF 407600} {DSP48E 840}    {BRAM 890}  "
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 5.81 sec.
+@I [HLS-100] Command "config_chip_info -quiet -speed medium "
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 5.82 sec.
+@I [HLS-100] Command 'import_lib' returned 0; elapsed 0.213Total elapsed time: 5.92 sec.
+@I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2012.4/common/technology/xilinx/kintex7/kintex7.gen "
+@I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2012.4/common/technology/xilinx/common/virtex.gen "
+@I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2012.4/common/technology/xilinx/common/xilinx.gen "
+@I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2012.4/common/technology/xilinx/interface/plb46.gen "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.021Total elapsed time: 5.118 sec.
+@I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2012.4/common/technology/xilinx/interface/fsl.gen "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.003Total elapsed time: 5.121 sec.
+@I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2012.4/common/technology/xilinx/interface/axi4.gen "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.013Total elapsed time: 5.134 sec.
+@I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2012.4/common/technology/xilinx/scripts/xilinxcoregen.gen "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.074Total elapsed time: 5.208 sec.
+@I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2012.4/common/technology/xilinx/interface/XilEDKCoreGen.gen "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.078Total elapsed time: 5.286 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.19Total elapsed time: 5.286 sec.
+@I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2012.4/common/technology/xilinx/common/dsp48.gen "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.008Total elapsed time: 5.298 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.206Total elapsed time: 5.299 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.206Total elapsed time: 5.299 sec.
+@I [HLS-100] Command "open_platform DefaultPlatform "
+@I [HLS-100] Command 'open_platform' returned 0; elapsed 0Total elapsed time: 5.312 sec.
+@I [HLS-100] Command "import_lib C:/Xilinx/Vivado_HLS/2012.4/common/technology/xilinx/kintex7/kintex7_fpv6 "
+@I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2012.4/common/technology/xilinx/common/xilinx_fpv6_2.lib "
+@I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2012.4/common/technology/xilinx/common/xilinx_fpv6.lib "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.008Total elapsed time: 5.356 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.031Total elapsed time: 5.365 sec.
+@I [HLS-100] Command 'import_lib' returned 0; elapsed 0.185Total elapsed time: 5.497 sec.
+@I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2012.4/common/technology/xilinx/kintex7/kintex7_fpv6.gen "
+@I [HLS-100] Command "source C:/Xilinx/Vivado_HLS/2012.4/common/technology/xilinx/common/xilinx_fpv6.gen "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.02Total elapsed time: 5.544 sec.
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.021Total elapsed time: 5.544 sec.
+@I [HLS-100] Command "set_part xc7k160tfbg484-2 "
+@I [HLS-100] Command "add_library xilinx/kintex7/kintex7:xc7k160t:fbg484:-2 "
+@I [HLS-100] Command "get_default_platform "
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 5.554 sec.
+@I [HLS-100] Command "license_exists VIVADO_HLS "
+@I [HLS-100] Command 'license_exists' returned 0; elapsed 0Total elapsed time: 5.555 sec.
+@I [HLS-100] Command "get_default_platform "
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 5.558 sec.
+@I [HLS-100] Command "config_chip_info -quiet -resource  {SLICE 25350} {LUT 101400}    {FF 202800} {DSP48E 600}    {BRAM 650}  "
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 5.558 sec.
+@I [HLS-100] Command "config_chip_info -quiet -speed medium "
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 5.558 sec.
+@I [HLS-100] Command 'add_library' returned 0; elapsed 0.009Total elapsed time: 5.561 sec.
+@I [HLS-100] Command "add_library xilinx/kintex7/kintex7_fpv6 "
+@I [HLS-100] Command "get_default_platform "
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 5.566 sec.
+@I [HLS-100] Command "license_exists VIVADO_HLS "
+@I [HLS-100] Command 'license_exists' returned 0; elapsed 0Total elapsed time: 5.566 sec.
+@I [HLS-100] Command 'add_library' returned 0; elapsed 0.01Total elapsed time: 5.571 sec.
+@I [HLS-10] Setting target device to 'xc7k160tfbg484-2'
+@I [HLS-100] Command 'set_part' returned 0; elapsed 0.025Total elapsed time: 5.571 sec.
+@I [HLS-100] Command "get_default_platform "
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 5.571 sec.
+@I [HLS-100] Command "config_chip_info -quiet -resource  {SLICE 25350} {LUT 101400}    {FF 202800} {DSP48E 600}    {BRAM 650}  "
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 5.572 sec.
+@I [HLS-100] Command "config_chip_info -quiet -speed medium "
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 5.572 sec.
+@I [HLS-100] Command 'open_solution' returned 0; elapsed 0.955Total elapsed time: 5.575 sec.
+@I [HLS-100] Command "set_part xc7k160tfbg484-2 "
+@I [HLS-100] Command "add_library xilinx/kintex7/kintex7:xc7k160t:fbg484:-2 "
+@I [HLS-100] Command "get_default_platform "
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 5.580 sec.
+@I [HLS-100] Command "license_exists VIVADO_HLS "
+@I [HLS-100] Command 'license_exists' returned 0; elapsed 0Total elapsed time: 5.580 sec.
+@I [HLS-100] Command "get_default_platform "
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 5.583 sec.
+@I [HLS-100] Command "config_chip_info -quiet -resource  {SLICE 25350} {LUT 101400}    {FF 202800} {DSP48E 600}    {BRAM 650}  "
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 5.583 sec.
+@I [HLS-100] Command "config_chip_info -quiet -speed medium "
+@I [HLS-100] Command 'config_chip_info' returned 0; elapsed 0Total elapsed time: 5.583 sec.
+@I [HLS-100] Command 'add_library' returned 0; elapsed 0.009Total elapsed time: 5.586 sec.
+@I [HLS-100] Command "add_library xilinx/kintex7/kintex7_fpv6 "
+@I [HLS-100] Command "get_default_platform "
+@I [HLS-100] Command 'get_default_platform' returned 0; elapsed 0Total elapsed time: 5.589 sec.
+@I [HLS-100] Command "license_exists VIVADO_HLS "
+@I [HLS-100] Command 'license_exists' returned 0; elapsed 0Total elapsed time: 5.589 sec.
+@I [HLS-100] Command 'add_library' returned 0; elapsed 0.006Total elapsed time: 5.592 sec.
+@I [HLS-100] Command 'set_part' returned 0; elapsed 0.017Total elapsed time: 5.592 sec.
+@I [HLS-100] Command "create_clock -period 10 "
+@I [HLS-100] Command 'create_clock' returned 0; elapsed 0.005Total elapsed time: 5.597 sec.
+@I [HLS-100] Command "source ./DisparityMap/solution1/directives.tcl "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.087Total elapsed time: 5.684 sec.
+@I [HLS-100] Command "csynth_design "
+@I [HLS-100] Command "elaborate -effort=medium -skip_syncheck=0 -lm=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 "
+@I [HLS-10] Importing test bench file 'Tsukuba_L.bmp' ... 
+@0 [HLS-0] Importing test bench file 'Tsukuba_L.bmp' ... 
+@I [HLS-10] Importing test bench file 'Tsukuba_R.bmp' ... 
+@0 [HLS-0] Importing test bench file 'Tsukuba_R.bmp' ... 
+@I [HLS-10] Importing test bench file 'disparity_map_test.cpp' ... 
+@0 [HLS-0] Importing test bench file 'disparity_map_test.cpp' ... 
+@I [HLS-10] Importing design file 'ap_bmp.cpp' ... 
+@0 [HLS-0] Importing design file 'ap_bmp.cpp' ... 
+@I [HLS-0] Compiling one TU...
+@I [HLS-0] 
+Checking before pre-process: exec llvm-gcc -fno-builtin-isinf -fno-builtin-isnan  -DAESL_SYN -D__SYNTHESIS__ -I "C:/Xilinx/Vivado_HLS/2012.4/common/technology/autopilot" -I "C:/Xilinx/Vivado_HLS/2012.4/common/technology/autopilot/ap_sysc"   -D "__asm__(...)=" -D__SYNTHESIS__ -D__HLS_SYN__ -DAESL_SYN -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit  "ap_bmp.cpp"  -include etc/autopilot_ssdm_op.h -o "C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db/ap_bmp.pp.00.o"
+
+@I [HLS-0] Syntax Checker time: 1 seconds per iteration
+@I [HLS-0] 
+Source preprocessing: exec llvm-gcc  -fno-builtin-isinf -fno-builtin-isnan -CC -E "ap_bmp.cpp"   -DAESL_SYN -D__SYNTHESIS__ -I "C:/Xilinx/Vivado_HLS/2012.4/common/technology/autopilot" -I "C:/Xilinx/Vivado_HLS/2012.4/common/technology/autopilot/ap_sysc"   -D "__asm__(...)=" -D__SYNTHESIS__ -D__HLS_SYN__ -DAESL_SYN -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D "__asm__(...)=" -include etc/autopilot_ssdm_op.h -o "C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db/ap_bmp.pp.0.cpp"
+
+@I [HLS-0] GCC PP time: 0 seconds per iteration
+@I [HLS-10] Analyzing the design file ...
+@I [HLS-0] Marker-Pragma convertor: C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db/ap_bmp.pp.0.cpp C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db/ap_bmp.pp.0.cpp.ap-line.cpp C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db/ap_bmp.pp.0.cpp.ap-line.cpp.CXX 1
+@I [HLS-0] 
+Source processor: exec C:/Xilinx/Vivado_HLS/2012.4/Win_x86/tools/jre/bin/java -Xmx512m -classpath   "C:/Xilinx/Vivado_HLS/2012.4/common/lib/autopilot.sourceprocessor.jar;C:/Xilinx/Vivado_HLS/2012.4/common/lib/org.eclipse.cdt.core_5.3.0.xilinx_patch.jar;C:/Xilinx/Vivado_HLS/2012.4/common/lib/org.eclipse.core.runtime_3.7.0.v20110110.jar;C:/Xilinx/Vivado_HLS/2012.4/common/lib/org.eclipse.equinox.common_3.6.0.v20110523.jar;C:/Xilinx/Vivado_HLS/2012.4/common/lib/com.ibm.icu_4.4.2.v20110208.jar;C:/Xilinx/Vivado_HLS/2012.4/common/lib/jargs.jar;C:/Xilinx/Vivado_HLS/2012.4/Win_x86/tools/eclipse/plugins/org.eclipse.emf.common_2.7.0.v20110605-0747.jar;C:/Xilinx/Vivado_HLS/2012.4/Win_x86/tools/eclipse/plugins/org.eclipse.emf.ecore_2.7.0.v20110605-0747.jar;C:/Xilinx/Vivado_HLS/2012.4/Win_x86/tools/eclipse/plugins/org.eclipse.emf.ecore.xmi_2.7.0.v20110520-1406.jar;C:/Xilinx/Vivado_HLS/2012.4/Win_x86/tools/eclipse/plugins/com.autoesl.autopilot.ui.directiveFileModel_1.0.0.jar;C:/Xilinx/Vivado_HLS/2012.4/Win_x86/tools/eclipse/plugins/com.autoesl.autopilot.ui.common_1.0.0.jar"  autopilot.sourceprocessor.CParser  "C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db/ap_bmp.pp.0.cpp.ap-line.cpp"  -m disparityMap -o "C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db/ap_bmp.pp.0.cpp.ap-cdt.cpp" --ad --pc --pp --directive C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/solution1.directive --source C:/Users/Michael/Desktop/DisparityMap_Vivado/ap_bmp.cpp --error C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db --ce --tcl C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db --ve --vetcl C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db --lp --ca --es --gf --nk --df --pd --p2d C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db
+
+@I [HLS-0] Marker-Pragma convertor: C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db/ap_bmp.pp.0.cpp.ap-cdt.cpp C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db/ap_bmp.pragma.0.cpp C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db/ap_bmp.pragma.0.cpp.ap-line.CXX 0
+@I [HLS-10] Validating synthesis directives ...
+@0 [HLS-0] Validating synthesis directives ...
+@I [HLS-100] Command "source C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db/pragma.status.tcl "
+@I [HLS-100] Command 'ap_source' returned 0; elapsed 0.019Total elapsed time: 13.346 sec.
+@I [HLS-0] CDT processor time: 5 seconds per iteration
+@I [HLS-0] Pragma handling time: 0 seconds per iteration
+@I [HLS-0] 
+Source preprocessing: exec llvm-gcc  -fno-builtin-isinf -fno-builtin-isnan -CC -E "C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db/ap_bmp.pragma.1.cpp"   -DAESL_SYN -D__SYNTHESIS__ -I "C:/Xilinx/Vivado_HLS/2012.4/common/technology/autopilot" -I "C:/Xilinx/Vivado_HLS/2012.4/common/technology/autopilot/ap_sysc"   -D "__asm__(...)=" -D__SYNTHESIS__ -D__HLS_SYN__ -DAESL_SYN -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D "__asm__(...)=" -include etc/autopilot_ssdm_op.h -o "C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db/ap_bmp.pragma.2.cpp"
+
+@I [HLS-0] exec llvm-gcc  -w -fno-builtin-isinf -fno-builtin-isnan  "C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db/ap_bmp.pragma.2.cpp"  -DAESL_SYN -D__SYNTHESIS__ -I "C:/Xilinx/Vivado_HLS/2012.4/common/technology/autopilot" -I "C:/Xilinx/Vivado_HLS/2012.4/common/technology/autopilot/ap_sysc"   -D "__asm__(...)=" -D__SYNTHESIS__ -D__HLS_SYN__ -DAESL_SYN -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit -g -o "C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db/ap_bmp.g.bc"
+@I [HLS-10] Importing design file 'disparity_map.cpp' ... 
+@0 [HLS-0] Importing design file 'disparity_map.cpp' ... 
+@I [HLS-0] Compiling one TU...
+@I [HLS-0] 
+Checking before pre-process: exec llvm-gcc -fno-builtin-isinf -fno-builtin-isnan  -DAESL_SYN -D__SYNTHESIS__ -I "C:/Xilinx/Vivado_HLS/2012.4/common/technology/autopilot" -I "C:/Xilinx/Vivado_HLS/2012.4/common/technology/autopilot/ap_sysc"   -D "__asm__(...)=" -D__SYNTHESIS__ -D__HLS_SYN__ -DAESL_SYN -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit  "disparity_map.cpp"  -include etc/autopilot_ssdm_op.h -o "C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db/disparity_map.pp.00.o"
+
+@I [HLS-0] Syntax Checker time: 3 seconds per iteration
+@I [HLS-0] 
+Source preprocessing: exec llvm-gcc  -fno-builtin-isinf -fno-builtin-isnan -CC -E "disparity_map.cpp"   -DAESL_SYN -D__SYNTHESIS__ -I "C:/Xilinx/Vivado_HLS/2012.4/common/technology/autopilot" -I "C:/Xilinx/Vivado_HLS/2012.4/common/technology/autopilot/ap_sysc"   -D "__asm__(...)=" -D__SYNTHESIS__ -D__HLS_SYN__ -DAESL_SYN -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -fno-threadsafe-statics  -fno-use-cxa-atexit  -fno-threadsafe-statics -fno-use-cxa-atexit -D "__asm__(...)=" -include etc/autopilot_ssdm_op.h -o "C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db/disparity_map.pp.0.cpp"
+
+@I [HLS-0] GCC PP time: 0 seconds per iteration
+@I [HLS-10] Analyzing the design file ...
+@I [HLS-0] Marker-Pragma convertor: C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db/disparity_map.pp.0.cpp C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db/disparity_map.pp.0.cpp.ap-line.cpp C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db/disparity_map.pp.0.cpp.ap-line.cpp.CXX 1
+@I [HLS-0] 
+Source processor: exec C:/Xilinx/Vivado_HLS/2012.4/Win_x86/tools/jre/bin/java -Xmx512m -classpath   "C:/Xilinx/Vivado_HLS/2012.4/common/lib/autopilot.sourceprocessor.jar;C:/Xilinx/Vivado_HLS/2012.4/common/lib/org.eclipse.cdt.core_5.3.0.xilinx_patch.jar;C:/Xilinx/Vivado_HLS/2012.4/common/lib/org.eclipse.core.runtime_3.7.0.v20110110.jar;C:/Xilinx/Vivado_HLS/2012.4/common/lib/org.eclipse.equinox.common_3.6.0.v20110523.jar;C:/Xilinx/Vivado_HLS/2012.4/common/lib/com.ibm.icu_4.4.2.v20110208.jar;C:/Xilinx/Vivado_HLS/2012.4/common/lib/jargs.jar;C:/Xilinx/Vivado_HLS/2012.4/Win_x86/tools/eclipse/plugins/org.eclipse.emf.common_2.7.0.v20110605-0747.jar;C:/Xilinx/Vivado_HLS/2012.4/Win_x86/tools/eclipse/plugins/org.eclipse.emf.ecore_2.7.0.v20110605-0747.jar;C:/Xilinx/Vivado_HLS/2012.4/Win_x86/tools/eclipse/plugins/org.eclipse.emf.ecore.xmi_2.7.0.v20110520-1406.jar;C:/Xilinx/Vivado_HLS/2012.4/Win_x86/tools/eclipse/plugins/com.autoesl.autopilot.ui.directiveFileModel_1.0.0.jar;C:/Xilinx/Vivado_HLS/2012.4/Win_x86/tools/eclipse/plugins/com.autoesl.autopilot.ui.common_1.0.0.jar"  autopilot.sourceprocessor.CParser  "C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db/disparity_map.pp.0.cpp.ap-line.cpp"  -m disparityMap -o "C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db/disparity_map.pp.0.cpp.ap-cdt.cpp" --ad --pc --pp --directive C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/solution1.directive --source C:/Users/Michael/Desktop/DisparityMap_Vivado/disparity_map.cpp --error C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db --ce --tcl C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db --ve --vetcl C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db --lp --ca --es --gf --nk --df --pd --p2d C:/Users/Michael/Desktop/DisparityMap_Vivado/DisparityMap/solution1/.autopilot/db
+
